@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artemisia Mauro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  </head>
+  <body>
+    <!-- Menu de navigation -->
+    <nav class="navbar">
+	  <div class="logo">
+		<a href='#accueil'>
+		  <img src="IMG/am.png" alt="Logo">
+		</a>
+	  </div>
+	  <ul class="nav-links">
+		<li><a href="#presentation">About me</a></li>
+		<li><a href="#competences">Skills</a></li>
+		<li><a href="#parcours">Education</a></li>
+		<li><a href="#projets">Projects</a></li>
+		<li><a href="#contact">Contact</a></li>
+	  </ul>
+		<div class="language-icon">
+		  <!-- Liste déroulante -->
+		  <select id="language-select" onchange="window.location.href=this.value;">
+			<option value="index.html">Français</option>
+			<option value="index-eng.html">English</option>
+		  </select>
+		</div>
+	</nav>
+
+    <!-- Contenu principal -->
+    <div id="accueil" class="container">
+      <h1>Artemisia Mauro</h1>
+      <p class="subtitle">Data Science student</p>
+    </div>
+	
+	<div id="presentation" class="presentation-section">
+    <div class="presentation-text">
+        <h2>About me</h2>
+        <p>
+            I'm currently studying Data Science at the IUT Paris Rives de Seine to specialize in visualization and designing of decision-making tools.
+        </p>
+        <p>
+            During my studies, I was able to discover programming thanks to the NSI specialization, while keeping a literary focus with the LLCE English specialization, as I love learning new languages. I'm now deepening my knowledge of programming, particularly in data processing and analysis. The BUT Science des Données enables me to put my technical skills and softskills into practice through numerous group and individual projects.
+        </p>
+		<p>
+            I'm dynamic, ready to take on new projects and find solutions to complex situations. I'm also creative and attach great importance to the aesthetics and coherence of my projects.
+        </p>
+		<p>
+            I have a strong interest in artistic and cultural fields related to languages, music (all types), gaming, cinema (action, thriller) and history (18th-19th centuries).
+        </p>
+		<p>
+            <b>Languages (levels refer to the CEFRL) :</b> French (native language), English (C1), German (B1), Italian (A2), Korean (A2)
+        </p>
+    </div>
+		<div class="presentation-photo">
+			<img src="IMG/phonto.jpg" alt="Mon portrait">
+		</div>
+	</div>
+	
+	<div id="competences" class="competences-section">
+    <h2>Skills and softwares</h2>
+    <div class="competences-container">
+        <!-- Box 1 -->
+        <div class="competence-box">
+            <img src="IMG/prog.png" alt="Compétence 1">
+            <h3>Programming</h3>
+            <ul>
+				<li>Mastery of programming languages</li>
+				<li>Data structure and algorithms</li>
+				<li>Statistical programming</li>
+				<li>Scripting and automation development</li>
+				<li>Web development and interactive applications</li>
+				<li>Use of APIs and web services</li>
+				<li>Code optimization</li>
+			</ul>
+        </div>
+        <!-- Box 2 -->
+        <div class="competence-box">
+            <img src="IMG/stats.png" alt="Compétence 2">
+            <h3>Statistics</h3>
+            <ul>
+				<li>Descriptive data analysis</li>
+				<li>Inferential statistics</li>
+				<li>Statistical modeling</li>
+				<li>Multivariate statistics</li>
+				<li>Time series analysis</li>
+				<li>Statistics applied to Big Data</li>
+			</ul>
+        </div>
+        <!-- Box 3 -->
+        <div class="competence-box">
+            <img src="IMG/work.png" alt="Compétence 3">
+            <h3>Others</h3>
+            <ul>
+				<li>Project management</li>
+				<li>Economical analysis</li>
+				<li>Collaboration and teamwork</li>
+				<li>Understanding of technical English</li>
+				<li>Data science vocabulary</li>
+			</ul>
+			<h3>Softwares</h3>
+            <ul>
+				<li>Anaconda/Jupyter</li>
+				<li>RStudio</li>
+				<li>SAS</li>
+				<li>SQLite</li>
+				<li>Excel/Power Bi</li>
+				<li>Powerpoint</li>
+			</ul>
+        </div>
+    </div>
+	</div>
+
+	<div id="parcours" class="parcours-section">
+		<h2>Education</h2>
+		<div class="parcours-container">
+			<!-- Boîte 1 (Parcours à gauche) -->
+			<div class="parcours-box">
+				<h3>Baccalauréat général</h3>
+				<h4>English european section <br> 2020 - 2023</h4>
+				<br>
+				<p>Fields : Numerical & Computer Science, English literature</p>
+				<br>
+				<p>Options : complementary mathematics</p>
+				<br>
+				<h5>
+                <a href="https://www.janson-de-sailly.fr" target="_blank" rel="noopener noreferrer">
+                    Lycée Janson de Sailly, Paris
+                </a>
+            </h5>
+			</div>
+			
+			<!-- Boîte 2 (Parcours à droite) -->
+			<div class="parcours-box">
+				<h3>BUT <br> Science des Données</h3>
+				<h4>2023 - 2026</h4>
+				<br>
+				<p>Equivalent to a 3-year Technological Bachelor's degree in Data Science</p>
+				<br>
+				<p>Specializing in  visualization and development of decision-making tools</p>
+				<br>
+				<h5>
+                <a href="https://iutparis-seine.u-paris.fr/" target="_blank" rel="noopener noreferrer">
+                    IUT de Paris - Rives de Seine, Paris
+                </a>
+            </h5>
+			</div>
+		</div>
+	</div>
+	
+	<div id="projets" class="projets-section">
+    <h2>Projects</h2>
+    <div class="projets-container">
+        <!-- Box 1 -->
+        <div class="projet-box" tabindex="0">
+            <img src="IMG/projet1.png" alt="Projet 1">
+            <h3>Soybean area prediction and impact on Brazilian forests report</h3>
+            <p><b>Context :</b> As part of a project carried out between December 2024 and January 2025 at IUT Paris Rive de Seine, I collaborated in a group of two to study the impact of increasing soybean acreage on deforestation in Brazil by 2030. We used two time series from FAOSTAT to predict these trends and understand the dynamics between agriculture and deforestation</p>
+			<p><b>Objectives :</b></p>
+			<ul>
+				<li>Predict soybean acreage trends in Brazil up to 2030</li>
+				<li>Assess the impact of this development on Brazilian forest areas</li>
+			</ul>
+			<p><b>Process and tools :</b></p>
+			<ul>
+				<li>Data cleansing, structuring, analysis and trend visualization with RStudio</li>
+				<li>Report written in Word</li>
+			</ul>
+			<p><b>Implemented skills :</b><br><br>Data extraction and processing, advanced statistical analysis, visualization, and drafting of usable conclusions</p>
+        </div>
+        <!-- Box 2 -->
+        <div class="projet-box" tabindex="0">
+            <img src="IMG/projet2.png" alt="Projet 2">
+            <h3>Restitution of Pokémon data analysis results in RShiny</h3>
+            <p><b>Context :</b> As part of a project carried out between December 2024 and January 2025 at the IUT Paris Rive de Seine, I worked on my own to exploit a Pokémon database, in order to produce some interesting statistical analyses</p>
+			<p><b>Objectives :</b></p>
+			<ul>
+				<li>Extract relevant information from this database and highlight it through statistical analysis and visualization, in a report or dashboard</li>
+			</ul>
+			<p><b>Process and tools :</b></p>
+			<ul>
+				<li>Data cleansing, structuring, analysis and trend visualization with RStudio</li>
+				<li>Creation of an RShiny dashboard for the results</li>
+			</ul>
+			<p><b>Implemented skills :</b><br><br>Extraction, structuring and processing of databases, analysis and statistical exploitation of data, creation of data visualizations and drafting of results in RShiny</p>
+        </div>
+        <!-- Box 3 -->
+        <div class="projet-box" tabindex="0">
+            <img src="IMG/projet3.png" alt="Projet 3">
+            <h3>Data processing and reporting for the Dataviz 2024 competition</h3>
+            <p><b>Context :</b> As part of the national dataviz competition held each year with Météo France, which brings together Data Science students from all over France, I worked in a group of five to create a dashboard presenting the results of weather data analysis. This project took place in May 2024 at IUT Paris Rive de Seine</p>
+			<p><b>Objectives :</b></p>
+			<ul>
+				<li>Visualize meteorological data in a clear and interactive way, highlighting our dataviz skills</li>
+			</ul>
+			<p><b>Process and tools :</b></p>
+			<ul>
+				<li>Cleaning, structuring, analyzing data and visualizing results with Excel and Power Bi</li>
+				<li>Creation of a dashboard on Power Bi</li>
+			</ul>
+			<p><b>Implemented skills :</b><br><br>Extraction, structuring and processing of databases, analysis and statistical exploitation of data, creation of data visualizations and drafting of results in RShiny</p>
+        </div>
+    </div>
+	</div>
+	
+	<div id="contact" class="contact-section">
+    <div class="contact-container">
+        <!-- Partie gauche : Titre Contact -->
+        <div class="contact-title">
+            <h2>Contact</h2>
+        </div>
+
+        <!-- Partie droite : Liens et Icônes -->
+        <div class="contact-links">
+            <div class="contact-item">
+                <img src="IMG/linkedin-icon.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/artemisia-mauro-8a8020349/" target="_blank">My LinkedIn</a>
+            </div>
+			<div class="contact-item">
+                <img src="IMG/cv-icon.png" alt="CV">
+                <a href="DOC/CV_FR.pdf" target="_blank">My resume</a>
+            </div>
+			<div class="contact-item">
+                <img src="IMG/mail-icon.png" alt="Email">
+                <a href="mailto:artemisia.mauro@gmail.com">artemisia.mauro@gmail.com</a>
+            </div>
+        </div>
+    </div>
+	</div>
+	
+  </body>
+</html>
